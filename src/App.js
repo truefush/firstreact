@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/Navbar/NavBar';
 
@@ -9,9 +9,9 @@ function App() {
   }
   return (
     <div className="App">
-      <header className="App-header">
       <NavBar />
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header">
+        <img src={"./img/log.png"} className="App-logo" alt="logo" />
         <h1 style={styles}>
           HOLA soy santiago
         </h1>
