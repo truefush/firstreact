@@ -1,6 +1,6 @@
 import './NavBar.css'
 
-const NavBar = ()=>{
+const NavBar = (props)=>{
     return(
         <nav>
             <log>
@@ -12,6 +12,7 @@ const NavBar = ()=>{
                 <li><a href='#'>List</a></li>
                 <li><a href='#'>Status</a></li>
             </ul>
+            <h1>{props.name}</h1>
         </nav>
     )
 }

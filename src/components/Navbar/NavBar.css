@@ -10,6 +10,7 @@ nav log{
     display: flex;
     align-items: center;
     padding-left:30px ;
+    font-size: 20px;
 }
 nav span{
     font-size: 30px;
